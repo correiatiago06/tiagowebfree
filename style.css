@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100rem;
+    height: 15rem;
+    background-image: url(img/tigo.gif);
+    background-size: cover;
+}
+
+.link{
+    background-color: black;
+    border-radius: 10px;
+    width: 27rem;
+    height: 3.5rem;
+    margin-top: -20px;
+    float: right;
+    margin-right: 150px;
+}
+
+.link ul li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+.link ul li a{
+    color: bisque;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.7rem;
+}
+
+/* PARTE VARANDA */
+
+.isin1{
+    background-image: url(img/01.jpg);
+    background-size: cover;
+    width: 100rem;
+    height: 40rem;
+}
+
+
+.isin1 .textu{
+    width: 40%;
+    padding: 50px;
+}
+
+.isin1 .textu p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.isin1 .imajen{
+    float: right;
+}
+
+.isin1 .imajen img{
+    width: 50rem;
+    margin-top: -45%;
+}
+
+/* IKUS */
+
+/* PARTE PROFIL */
+
+.isin2{
+    margin-top: 1%;
+    min-height: 47rem;
+}
+
+.isin2 h2{
+    background-color: rgb(139, 207, 255);
+    padding: 2%;
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.isin2 .ami-foto img{
+    margin: 40px;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.isin2 .letra{
+    float: right;
+    width: 40%;
+    padding: 50px;
+    margin-top: -30%;
+}
+
+.isin2 .letra p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* IKUS */
+
+/* PARTE PRODUTU */
+.isin3{
+    padding-top: 10px;
+    min-height: 47rem;
+}
+
+.isin3 h2{
+    background-color: rgb(127, 255, 240);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+}
+
+.propro{
+    display: flex;
+    padding-left: 20px;
+    min-height: 30rem;
+}
+
+.isin3 .pro{
+    margin: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 15%;
+    height: 13rem;
+}
+.isin3 .pro img{
+    margin-top: 10px;
+    width: 10rem;
+    border-radius: 70px;
+}
+
+.isin3 .pro p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+/* IKUS */
+
+/* PARTE KONTAKTU */
+
+.kontak-ami{
+    padding: 10px;
+    min-height: 43rem;
+}
+.kontak-ami h2{
+    color: #000;
+    background-color: aqua;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+
+.kontak-ami .hakerek-kontak{
+    padding: 10%;
+}
+
+.kontak-ami .hakerek-kontak input{
+    width: 30%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.kontak-ami .imajen-kon img{
+    width: 25rem;
+    float: right;
+    margin-top: -25%;
+    margin-right: 20rem;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: aqua;
+    width: 99rem;
+}
+
+footer p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
